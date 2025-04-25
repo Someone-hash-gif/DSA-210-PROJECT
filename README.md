@@ -58,7 +58,7 @@ Let:
 - The box shows the **interquartile range (IQR)**.
 - Outliers are marked individually.
 
-![Bars](keyword_videos2025.png)
+![Bars](since2025.png)
 
 ---
 
