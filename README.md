@@ -3,7 +3,7 @@
 
 
 ## Data collection
-  Data collection is done via python, the official youtube API.
+  Data collection is done via python, the official youtube API 😸
 
 
 ## Keywords: 
@@ -58,9 +58,11 @@ Let:
 - The box shows the **interquartile range (IQR)**.
 - Outliers are marked individually.
 
+![Bars](keyword_videos2025.png)
+
 ---
 
-## 🧪 Statistical Test
+## 🧪 Statistical Testing
 
 We use a **Welch’s t-test** (unequal variances allowed) to compare the groups.
 
@@ -72,7 +74,7 @@ We use a **Welch’s t-test** (unequal variances allowed) to compare the groups.
 ### Results:
 
 - **t-statistic**: 2.30
-- **degrees of freedom**: *...*
+- **degrees of freedom**: 166.16. approx.
 - **p-value**: 0.0113
 
 ### Significance Level:
