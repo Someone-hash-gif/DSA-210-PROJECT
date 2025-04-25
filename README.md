@@ -56,6 +56,8 @@ Let:
 - This plot compares the distribution of view counts.
 - The box shows the **interquartile range (IQR)**.
 - Outliers are marked individually.
+ 
+---
 
 ### Bar chart for videos after 2025
 
