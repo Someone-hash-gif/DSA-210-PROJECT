@@ -1,5 +1,5 @@
 # DSA-210-PROJECT
- This is a data science project. It will experiment on data collected from YouTube. It will try to categorize data related to YouTube videos, which keywords will get the most views, interactions.
+ This is a data science project. It will experiment on data collected from YouTube. It will try to categorize YouTube videos, which keywords gets the most views, interactions.
 
 
 ## Data collection
