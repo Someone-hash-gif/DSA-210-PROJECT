@@ -46,7 +46,6 @@ Let:
 | With `"crazy"`      | 113,907,175 |	9,649,635 |	167|
 | Without `"crazy"`   | 12,175,615	| 895,232	 | 3,173 |
 
-*(fill with real values below)*
 
 ---
 
@@ -59,6 +58,7 @@ Let:
 - Outliers are marked individually.
 
 ### Bar chart for videos after 2025
+
 ![Bars](since2025.png)
 
 ---
