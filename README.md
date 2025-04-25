@@ -43,8 +43,8 @@ Let:
 
 | Group                | Mean Views | Median | Count |
 |---------------------|------------|--------|-------|
-| With `"crazy"`      | *(computed)* | *(computed)* | *(n₁)* |
-| Without `"crazy"`   | *(computed)* | *(computed)* | *(n₂)* |
+| With `"crazy"`      | 113,907,175 |	9,649,635 |	167|
+| Without `"crazy"`   | 12,175,615	| 895,232	 | 3,173 |
 
 *(fill with real values below)*
 
@@ -71,16 +71,16 @@ We use a **Welch’s t-test** (unequal variances allowed) to compare the groups.
 
 ### Results:
 
-- **t-statistic**: *...*
+- **t-statistic**: 2.30
 - **degrees of freedom**: *...*
-- **p-value**: *...*
+- **p-value**: 0.0113
 
 ### Significance Level:
 - α = 0.05
 
 ---
 
-## ✅ Conclusion
+## Our decision tree!
 
 If **p < 0.05**, we **reject** the null hypothesis:  
 > Videos with `"crazy"` are **significantly** more viewed.
@@ -88,7 +88,13 @@ If **p < 0.05**, we **reject** the null hypothesis:
 If **p ≥ 0.05**, we **fail to reject** the null:  
 > No strong evidence that `"crazy"` leads to more views.
 
----
+
+# Final Conclusion
+ At α = 0.05, the p-value is significant (0.0113 < 0.05), so we reject the null hypothesis.
+ 
+     ✔️ There is strong evidence that videos with the keyword "crazy" have higher average views compared to those without it.
+ 
+ ---
 
 
 
