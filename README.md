@@ -101,6 +101,29 @@ If **p ≥ 0.05**, we **fail to reject** the null:
  
  ---
 
+## 📊 Machine Learning Results
+
+More info on the ipynb file!
+
+### Classification Report
+
+| Class        | Precison | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| **high**     | 0.83      | 0.93   | 0.88     | 466     |
+| **low**      | 0.50      | 0.39   | 0.44     | 51      |
+| **medium**   | 0.47      | 0.24   | 0.32     | 91      |
+| **accuracy** |           |        | **0.78** | 608     |
+| **macro avg**| 0.60      | 0.52   | 0.55     | 608     |
+| **weighted avg** | 0.75  | 0.78   | 0.76     | 608     |
+
+---
+
+### 🌟 Top 10 Keyword Feature Importances
+
+![Top 10 Keyword Features](keyword_feature_importance.png)
+
+> *Figure: The most predictive keywords for view-level clasification, as determined by the Random Forest model’s feature importances (TF-IDF).*  
+
 
 
 
